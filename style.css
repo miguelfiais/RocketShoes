@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e5e5e5;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    z-index: 2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    gap: 6rem;
+}
+nav input{
+    padding-left: 1.5rem;
+    background-image: url(./assets/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 45px;
+    max-width: 320px;
+    flex: 1;
+    border: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper-left{
+    max-width: 357px;
+}
+.wrapper-left h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+.wrapper-left p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9696;
+    margin: 21px 0px;
+}
+.wrapper-left h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+.wrapper-left button{
+    background: #FF0000;
+    width: 274px;
+    height: 90px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.tenis-ampliado{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.galery img{
+    width: 30%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+.galery{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    margin: 0 90px;
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    gap: 5rem;
+}
+footer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    flex: 1;
+    height: 166px;
+    max-width: 550px;
+}
+.background{
+    width: 64%;
+    height: 86%;
+    background-color: #c4c4c4;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
